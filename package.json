@@ -173,7 +173,10 @@
     "yauzl": "^2.10.0"
   },
   "scripts": {
-    "test": "cypress run"
+    "test:ui": "cypress open",
+    "test:headlees": "cypress run",
+    "test:headlees:chrome": "cypress run --browaer chrome",
+    "test:headlees:firefox": "cypress run --browaer firefox"
   },
   "author": "jorge corrales",
   "license": "ISC"
